@@ -62,6 +62,28 @@ table td:hover {
   color: #F08A5D;
 }
 
+.cardthumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.cardthumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cardthumbnail img.portait {
+  width: 100%;
+  height: auto;
+}
+
 .separador {
   color: #FFFF;
   background-color: #2C394B;
@@ -94,5 +116,25 @@ table td:hover {
   border-color: #F08A5D;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #f08a5d;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #f08a5d;
+}
+
+.social-tw {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+.social-fb {
+  color: #1877F2;
+  text-decoration: none;
+}
+
+.social-ig {
+  color: #E4405F;
+  text-decoration: none;
+}
+
+.social-yt {
+  color: #CD201F;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
